@@ -34,7 +34,65 @@
             <td></td> <!--mesleği boş bırakırsak kaydırma yapmaz-->
             <td>27</td>
         </tr>
+        <br>
     </table>
+    
+    <br><br>
+
+    <form action="images.html"> <!-- formlar ile girdili işlemleri başlatırız--> <!--images.htmle submitlediğimiz an gidecek-->
+        <label for="name">Name:</label> <!--email işlemi için kullanılacağını ve bağlı olduğunu belirttik-->
+        <input type="text" id="name" name="name">  <!-- id girerek switch key uyumu yaptık-->
+        <br><br>
+        <label for="salary">Salary:</label> 
+        <input type="text" id="salary" name="salary">  <!-- text için type--> <!-- name vererek url de kolay paylaşımını sağladık-->
+        <br><br>
+        <input type="submit"> <!--buton için type-->
+    </form>
+
+    <br><br><br><br>
+
+    <form action="https://hepsiburada.com"> <!-- formlar ile girdili işlemleri başlatırız--> <!--images.htmle submitlediğimiz an gidecek-->
+        <label for="Email">Email:</label> <!--email işlemi için kullanılacağını ve bağlı olduğunu belirttik-->
+        <input type="email" id="Email" name="Email" placeholder="Enter your email">  <!-- id girerek switch key uyumu yaptık-->
+        <!--type ı tanımlı olan emaile çevirdik-->
+        <br><br>
+        <label for="Password">Passw:</label> 
+        <input type="password" id="Password" name="Password" placeholder="enter your password">  <!-- text için type--> <!-- name vererek url de kolay paylaşımını sağladık-->
+        <!--type ı tanımlı olan passw e çevirdik-->
+        <br><br>
+        <input type="submit" value="Login"> <!--buton için type--> <!--value ile adını girebiliriz.-->
+    </form>
+<br><br><br><br><br>
+
+     <form action="div_and_span.html"> <!-- formlar ile girdili işlemleri başlatırız--> <!--images.htmle submitlediğimiz an gidecek-->
+        <p>Caillou vs Arthur ?</p>
+
+        <label for="Caillou">Caillou:</label> <!--email işlemi için kullanılacağını ve bağlı olduğunu belirttik-->
+        <input type="radio" id="Caillou" name="choose" value="Caillou">  <!-- id girerek switch key uyumu yaptık-->
+        <br><br>                    <!--eğer tek değer seçilsin istersek name aynı olmalı--><!--Value değeri ile de hangisi seçili anlarız-->
+        <label for="Arthur">Arthur:</label> 
+        <input type="radio" id="Arthur" name="choose" value="Arthur">  <!-- text için type--> <!-- name vererek url de kolay paylaşımını sağladık-->
+        <br><br>
+        <input type="submit" value="Choose"> <!--buton için type-->
+    </form>
+
+<br><br><br><br>
+
+    <form action="htmlbasics.html">
+        <p>Rate your driver ?</p>
+        <select name="rating" id="">
+            <option value="">5</option>
+            <option value="">4</option>
+            <option value="">3</option>
+            <option value="">2</option>
+            <option value="">1</option>
+        </select>
+
+        <br>
+
+        <input type="submit" value="Choose">
+
+    </form>
 
 </body>
 </html>
